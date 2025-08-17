@@ -64,9 +64,10 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.toneMapping = THREE.ReinhardToneMapping;
 renderer.toneMappingExposure =1;
-renderer.outputEncoding = THREE.sRGBEncoding;
+renderer.outputColorSpace = THREE.sRGBEncoding;
 document.body.appendChild(renderer.domElement);
 
+let controls;
 controls = new OrbitControls(camera, renderer.domElement);
 controls.addEventListener('change', renderer);
 controls.enableDamping = true;
