@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -44,13 +46,15 @@ canvas{
     animation: pulse 2s infinite;
     background-image: linear-gradient(to right, white, rgb(78, 80, 221));
     border-radius: 8px;
+    padding: 5px;
     margin-bottom: 20px;
 }
 
 .loading-progress {
     color: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
     margin-top: 20px;
 }
 
