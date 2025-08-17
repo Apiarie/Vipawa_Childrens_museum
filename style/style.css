@@ -42,6 +42,7 @@ canvas{
     width: 200px;
     height: auto;
     animation: pulse 2s infinite;
+    background-image: (to right, white, rgb(78, 80, 221));
     margin-bottom: 20px;
 }
 
