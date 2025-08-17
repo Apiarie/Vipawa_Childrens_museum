@@ -45,7 +45,7 @@ function init(){
 new RGBELoader(manager)
     .setPath('./assets/')
     .load('sample.hdr', function(texture){
-        texture.mapping = EquirectangularReflectionMapping;
+        texture.mapping = THREE.EquirectangularReflectionMapping;
         scene.background = texture;
         scene.environment = texture;
         renderer();
