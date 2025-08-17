@@ -64,7 +64,6 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.toneMapping = THREE.ReinhardToneMapping;
 renderer.toneMappingExposure =1;
-renderer.outputColorSpace = THREE.sRGBEncoding;
 document.body.appendChild(renderer.domElement);
 
 let controls;
