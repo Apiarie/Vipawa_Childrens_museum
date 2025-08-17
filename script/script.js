@@ -48,7 +48,7 @@ new RGBELoader(manager)
         texture.mapping = THREE.EquirectangularReflectionMapping;
         scene.background = texture;
         scene.environment = texture;
-        renderer();
+        renderer.render(scene, camera);
         updateLoadingProgress(1);
 
     },function (xhr) {
