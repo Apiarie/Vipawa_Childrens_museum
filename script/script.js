@@ -1,5 +1,5 @@
 import { EquirectangularReflectionMapping } from 'three';
-import * as THREE from three;
+import * as THREE from 'three';
 import {orbitControls} from 'three/addons/controls/orbitControls';
 import {RGBELoader} from 'three/addons/loaders/RGBELoader';
 
