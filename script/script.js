@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {orbitControls} from 'three/addons/controls/orbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import {RGBELoader} from 'three/addons/loaders/RGBELoader.js';
 
 //scene
@@ -67,7 +67,7 @@ renderer.toneMappingExposure =1;
 renderer.outputEncoding = THREE.sRGBEncoding;
 document.body.appendChild(renderer.domElement);
 
-controls = new orbitControls(camera, renderer.domElement);
+controls = new OrbitControls(camera, renderer.domElement);
 controls.addEventListener('change', renderer);
 controls.enableDamping = true;
     
